@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 10px;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.app-install-add{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-bottom: 10px;
+    /* border-bottom: solid black 1px; */
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2); 
+}
+.app-install-add__logo img{
+    width: 40px;
+    height: 40px;
+    background-color: #34E0A1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.app-install-add__button{
+    padding: 10px;
+    background-color: white;
+    border: solid black 1.5px;
+    border-radius: 50px;
+    width: fit-content;
+    height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.app-install-add__title{
+    padding: 10px;
+}
+
+.navbar__logo img{
+    width: 30px;
+    height: 30px;
+    background-color: #34E0A1;
+    padding: 5px;
+    border-radius: 5px;
+}
+.navbar__person_logo{
+    padding: 10px;
+    border-radius: 50px;
+    border: solid black 1px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__logo-title{
+    padding-left: 10px;
+}
+.navbar__home-link{
+    text-decoration: none;
+    color: black;
+}
+
+/* singup page designing */
+.signup-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 70px; */
+    margin: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.signup-page__close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signup-page__close:hover{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.signup-page__logo img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: #34E0A1;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.signup-page__title{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+.signup-page__google{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid black 1px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 100px;
+    cursor: pointer;
+}
+.signup-page__mail{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid black 1px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 100px;
+    cursor: pointer;
+}
+.signup-page__mail:hover{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid black 1px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 100px;
+    cursor: pointer;
+    background-color: #34E0A1;
+}
+.signup-page__google:hover{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid black 1px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 100px;
+    cursor: pointer;
+    background-color: #34E0A1;
+}
+.signup-page__google img{
+    width: 20px;
+}
+.signup-page__mail img{
+    width: 20px;
+}
+
+.terms-and-privacy{
+    font-size: 11px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 60%;
+    color: black;
+}
+.recaptcha_info{
+    margin-top: 10px;
+    font-size: 11px;
+    opacity: 60%;
+}
+.terms-and-privacy a{
+    color: black;
+}
+.recaptcha_info a{
+    color: black;
+}
