@@ -3,12 +3,19 @@
     margin: 0;
 }
 
-body{
-    /* margin: 10px; */
+/* body{
     font-size: 14px;
     font-family: "Poppins", serif;
     font-weight: 400;
     font-style: normal;
+} */
+
+body{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 .app-install-add{
     margin: 20px;
@@ -20,8 +27,8 @@ body{
     position: relative;
 }
 .app-install-add__logo img{
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     background-color: #34E0A1;
     padding: 10px;
     border-radius: 10px;
@@ -44,6 +51,7 @@ body{
 
 .app-install-add__title{
     padding: 10px;
+    font-size: 10px;
 }
 
 .navbar__logo img{
