@@ -240,7 +240,10 @@ body{
     padding:10px;
 }
 .banner-title h1{
-    font-size: 35px;
+    font-size: 45px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .banner-app-store{
