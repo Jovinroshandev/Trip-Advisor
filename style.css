@@ -794,11 +794,18 @@ body {
   border-bottom-left-radius:10px ;
 }
 .footer-banner__content-pc{
-  padding: 10px;
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 40px;
+}
+
+.footer-banner__content-pc h1{
+  font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .footer-banner__content-pc h1,  .footer-banner__content p{
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .footer-banner__btn-pc p{
@@ -806,10 +813,9 @@ body {
   width: fit-content;
   padding: 10px;
   border-radius: 50px;
-  margin-left: 20px;
-  margin-bottom: 10px;
   color: white;
   font-weight: bold;
+  margin-top: 20px;
 }
 .footer-banner__btn-pc{
   margin-bottom: 10px;
