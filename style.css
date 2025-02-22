@@ -11,6 +11,9 @@ body {
     font-style: normal;
     font-size: 14px;
 }
+.scroll-container-pc{
+  display: none;
+}
 .banner-container-pc{
   display: none;
 }
@@ -772,56 +775,63 @@ body {
   }
 
 
-/* footer  for pc screen*/
-.footer-banner{
+  /* footer  for pc screen*/
+  .footer-banner{
+    display: none;
+  }
+
+  .footer-banner-pc{
+      display: flex;
+      background-color: #FFF7E1;
+  }
+  .footer-banner-pc img{
+    width: 50%;
+  }
+  .footer-banner__award-logo-pc img{
+    background-color: #EDBF2D;
+    width: 10%;
+    margin-left:20px ;
+    border-radius: 50px;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+  }
+  .footer-banner__content-pc{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 40px;
+  }
+
+  .footer-banner__content-pc h1{
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .footer-banner__content p{
+    padding-bottom: 20px;
+  }
+
+  .footer-banner__btn-pc p{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .footer-banner__btn-pc{
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}
+.scroll-container-pc{
+  display: flex;
+}
+.scroll-container{
   display: none;
 }
-
-.footer-banner-pc{
-    display: flex;
-    background-color: #FFF7E1;
-}
-.footer-banner-pc img{
-  width: 50%;
-}
-.footer-banner__award-logo-pc img{
-  background-color: #EDBF2D;
-  width: 10%;
-  margin-left:20px ;
-  border-radius: 50px;
-  padding: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius:10px ;
-}
-.footer-banner__content-pc{
-  display: flex;
-  flex-direction: column;
-  padding: 40px;
-  margin: 40px;
-}
-
-.footer-banner__content-pc h1{
-  font-size: 60px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.footer-banner__content-pc h1,  .footer-banner__content p{
-  padding-bottom: 20px;
-}
-
-.footer-banner__btn-pc p{
-  background-color: black;
-  width: fit-content;
-  padding: 10px;
-  border-radius: 50px;
-  color: white;
-  font-weight: bold;
-  margin-top: 20px;
-}
-.footer-banner__btn-pc{
-  margin-bottom: 10px;
-  cursor: pointer;
-}
-
 /* Large Screens (1200px and above) */
 @media screen and (min-width: 1200px) {
   .app-install-add{
@@ -829,5 +839,4 @@ body {
   }
   .container {
       max-width: 1200px;
-  }
-}
+  }}
