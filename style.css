@@ -1,32 +1,28 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-/* body{
-    font-size: 14px;
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-} */
 
-body{
+body {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
 }
-.app-install-add{
+
+.app-install-add {
     margin: 20px;
     display: flex;
     align-items: center;
     position: relative;
     padding-bottom: 10px;
-    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.2);
     position: relative;
 }
-.app-install-add__logo img{
+
+.app-install-add__logo img {
     width: 20px;
     height: 20px;
     background-color: #34E0A1;
@@ -34,7 +30,7 @@ body{
     border-radius: 10px;
 }
 
-.app-install-add__button{
+.app-install-add__button {
     padding: 10px;
     background-color: white;
     border: solid black 1.5px;
@@ -49,19 +45,20 @@ body{
     position: absolute;
 }
 
-.app-install-add__title{
+.app-install-add__title {
     padding: 10px;
     font-size: 10px;
 }
 
-.navbar__logo img{
+.navbar__logo img {
     width: 30px;
     height: 30px;
     background-color: #34E0A1;
     padding: 5px;
     border-radius: 5px;
 }
-.navbar__person_logo{
+
+.navbar__person_logo {
     padding: 10px;
     border-radius: 50px;
     border: solid black 1px;
@@ -70,7 +67,8 @@ body{
     justify-content: center;
     align-items: center;
 }
-.navbar__person_logo:hover{
+
+.navbar__person_logo:hover {
     padding: 10px;
     border-radius: 50px;
     border: solid black 1px;
@@ -81,34 +79,38 @@ body{
     background-color: #34E0A1;
 }
 
-.navbar{
+.navbar {
     display: flex;
     padding: 10px;
-    margin: 10px;
     justify-content: space-between;
     align-items: center;
     position: sticky;
-    top:0;
+    top: 0;
     background-color: white;
+    z-index: 1;
 }
 
-.navbar__logo{
+.navbar__logo {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar__logo-title{
+
+.navbar__logo-title {
     padding-left: 10px;
 }
-.navbar__home-link{
+
+.navbar__home-link {
     text-decoration: none;
     color: black;
 }
-#menubar{
+
+#menubar {
     padding: 10px;
     cursor: pointer;
 }
-#menubar:hover{
+
+#menubar:hover {
     padding: 10px;
     background-color: #34E0A1;
 }
@@ -129,14 +131,16 @@ body{
     overflow-x: auto;
     white-space: nowrap;
     scroll-behavior: smooth;
-    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    scrollbar-width: none;
+    /* Hide scrollbar for Firefox */
     width: 80%;
     padding: 10px;
 }
+
 /* Menu items */
 .scroll-menu a {
     text-decoration: none;
-    color:black;
+    color: black;
     padding: 12px 18px;
     margin: 0 5px;
     background: white;
@@ -149,6 +153,7 @@ body{
 .scroll-menu a:hover {
     border-bottom: solid black 0.3px;
 }
+
 .scroll-menu a:focus {
     border-bottom: solid #34E0A1 2px;
 }
@@ -174,7 +179,7 @@ body{
 
 
 /* Search box */
-.search-bar{
+.search-bar {
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -183,7 +188,7 @@ body{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-.search-bar__box{
+.search-bar__box {
     display: flex;
     margin: 10px;
     gap: 10px;
@@ -191,21 +196,30 @@ body{
     box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
 }
 
-.search-bar__input{
+.search-bar__input {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.search-bar__input input{
+
+.search-bar__input input {
     display: flex;
     flex-grow: 1;
-    flex-basis:100%;
-    min-width: 0; 
+    flex-basis: 100%;
+    min-width: 0;
     border: none;
 }
 
-.search-bar__button{
+.search-bar__input input:hover {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 100%;
+    min-width: 0;
+    border: none;
+}
+
+.search-bar__button {
     display: flex;
     background-color: #34E0A1;
     font-weight: bold;
@@ -219,7 +233,7 @@ body{
 }
 
 /* Banner Style */
-.banner-container{
+.banner-container {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -227,26 +241,29 @@ body{
     padding-top: 20px;
     background-color: #34E0A1;
 }
-.banner-image{
+
+.banner-image {
     display: flex;
     justify-content: center;
 }
-.banner-image img{
+
+.banner-image img {
     width: 100%;
 }
 
-.banner-title{
+.banner-title {
     margin: 10px;
-    padding:10px;
+    padding: 10px;
 }
-.banner-title h1{
+
+.banner-title h1 {
     font-size: 40px;
     font-family: "Poppins", serif;
     font-weight: 600;
     font-style: normal;
 }
 
-.banner-app-store{
+.banner-app-store {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,14 +273,15 @@ body{
     border-radius: 50px;
     margin-top: 10px;
 }
-.banner-app-store a{
+
+.banner-app-store a {
     text-decoration: none;
     color: white;
 }
 
 
 /* singup page designing */
-.signup-page{
+.signup-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -274,21 +292,23 @@ body{
     padding-right: 60px;
 }
 
-.signup-page__close{
+.signup-page__close {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 20px;
     cursor: pointer;
 }
-.signup-page__close:hover{
+
+.signup-page__close:hover {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 20px;
     cursor: pointer;
 }
-.signup-page__logo img{
+
+.signup-page__logo img {
     width: 40px;
     height: 40px;
     margin-bottom: 10px;
@@ -297,14 +317,15 @@ body{
     border-radius: 10px;
 }
 
-.signup-page__title{
+.signup-page__title {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
 }
-.signup-page__google{
+
+.signup-page__google {
     display: flex;
     flex-grow: 1;
     flex-basis: 25%;
@@ -318,7 +339,8 @@ body{
     font-weight: 100px;
     cursor: pointer;
 }
-.signup-page__mail{
+
+.signup-page__mail {
     display: flex;
     flex-grow: 1;
     flex-basis: 25%;
@@ -332,7 +354,8 @@ body{
     font-weight: 100px;
     cursor: pointer;
 }
-.signup-page__mail:hover{
+
+.signup-page__mail:hover {
     display: flex;
     flex-grow: 1;
     flex-basis: 25%;
@@ -347,7 +370,8 @@ body{
     cursor: pointer;
     background-color: #34E0A1;
 }
-.signup-page__google:hover{
+
+.signup-page__google:hover {
     display: flex;
     flex-grow: 1;
     flex-basis: 25%;
@@ -362,14 +386,16 @@ body{
     cursor: pointer;
     background-color: #34E0A1;
 }
-.signup-page__google img{
-    width: 20px;
-}
-.signup-page__mail img{
+
+.signup-page__google img {
     width: 20px;
 }
 
-.terms-and-privacy{
+.signup-page__mail img {
+    width: 20px;
+}
+
+.terms-and-privacy {
     font-size: 11px;
     padding: 10px;
     text-align: center;
@@ -377,14 +403,89 @@ body{
     opacity: 60%;
     color: black;
 }
-.recaptcha_info{
+
+.recaptcha_info {
     margin-top: 10px;
     font-size: 11px;
     opacity: 60%;
 }
-.terms-and-privacy a{
+
+.terms-and-privacy a {
     color: black;
 }
-.recaptcha_info a{
+
+.recaptcha_info a {
     color: black;
 }
+
+
+/* Explore session*/
+.explore{
+    padding: 20px;
+  }
+  .explore h1{
+    padding-bottom: 10px;
+  }
+  .scroll-wrapper {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .scroll-wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .scroll-wrapper__bg-image {
+    margin-top: 10px;
+    position: relative;
+    padding-right: 10px;
+    
+  }
+  /* Image property */
+  .image{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  /* Gradient overlay for text background */
+.scroll-wrapper__bg-image::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    pointer-events: none; /* Ensures it doesn’t interfere with clicks */
+}
+  .scroll-wrapper__head {
+    z-index: 1;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+  }
+  .explore__award-logo img{
+    width: 20px;
+  }
+  
+  .explore__award-logo p{
+    font-size: 10px;
+    font-weight: 800;
+  }
+
+  .explore__award-logo{
+    padding: 3px;
+    margin: 5px;
+    font-size: 20px;
+    position: absolute; 
+    top: 0;
+    text-align: center;
+    background-color:  #EDBF2D;
+    border-radius: 50px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+  }
