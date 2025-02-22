@@ -87,7 +87,7 @@ body {
     position: sticky;
     top: 0;
     background-color: white;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar__logo {
@@ -456,6 +456,7 @@ body {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     pointer-events: none; /* Ensures it doesn’t interfere with clicks */
+    cursor: pointer;
 }
   .scroll-wrapper__head {
     z-index: 1;
@@ -484,4 +485,125 @@ body {
     border-radius: 50px;
     border-bottom-right-radius:10px;
     border-bottom-left-radius:10px;
+  }
+
+  
+/* inspired session*/
+.inspired{
+    padding: 20px;
+  }
+  .inspired h1{
+    padding-bottom: 10px;
+  }
+  .inspired_scroll-wrapper {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .inspired_scroll-wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .inspired_scroll-wrapper__bg-image {
+    margin-top: 10px;
+    position: relative;
+    padding-right: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .inspired_scroll-wrapper__bg-image p {
+    padding-top: 10px;
+  }
+  /* Image property */
+  .image{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+/* local_tour session*/
+.local_tour{
+    padding: 20px;
+  }
+  .local_tour h1{
+    padding-bottom: 10px;
+  }
+  .local_tour_scroll-wrapper {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .local_tour_scroll-wrapper::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .local_tour_scroll-wrapper__bg-image {
+    margin-top: 10px;
+    position: relative;
+    padding-right: 10px;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  .local_tour_scroll-wrapper__bg-image p {
+    padding-top: 10px;
+  }
+  /* Image property */
+  .image{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+  }
+
+  .more-explore{
+    padding: 20px;
+    background-color: #ececec;
+  }
+  .more-explore h1{
+    padding-bottom: 10px;
+  }
+
+  /* footer banner */
+  .footer-banner{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    background-color: #FFF7E1;
+  }
+  .footer-banner img{
+    width: 100%;
+  }
+  .footer-banner__award-logo img{
+    background-color: #EDBF2D;
+    width: 10%;
+    margin-left:20px ;
+    border-radius: 50px;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius:10px ;
+  }
+  .footer-banner__content{
+    padding: 10px;
+    margin: 10px;
+  }
+  .footer-banner__content h1,  .footer-banner__content p{
+    padding-bottom: 10px;
+  }
+
+  .footer-banner__btn p{
+    background-color: black;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+  }
+  .footer-banner__btn{
+    margin-bottom: 10px;
+    cursor: pointer;
   }
