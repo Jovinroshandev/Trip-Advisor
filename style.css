@@ -11,7 +11,12 @@ body {
     font-style: normal;
     font-size: 14px;
 }
-
+.banner-container-pc{
+  display: none;
+}
+.footer-banner-pc{
+  display: none;
+}
 .app-install-add {
     margin: 20px;
     display: flex;
@@ -229,7 +234,7 @@ body {
 }
 
 /* Banner Style */
-.banner-container {
+.banner-container{
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -673,4 +678,150 @@ body {
 .foot-copy-right{
   padding: 10px;
   margin: 10px;
+}
+
+
+/* Default styles (for mobile-first approach) */
+
+/* Tablets (768px and above) */
+@media screen and (min-width: 768px) {
+  body {
+      background-color: #f4f4f4;
+  }
+  .app-install-add{
+    display: none;
+  }
+  .container {
+      max-width: 750px;
+  }
+}
+
+/* Laptops & Small Desktops (1024px and above) */
+@media screen and (min-width: 1024px) {
+  .app-install-add{
+    display: none;
+  }
+  .banner-containe{
+    display: flex;
+  }
+  .banner-title{
+    display: none;
+  }
+  .banner-image{
+    display: none;
+  }
+  .banner-container{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
+  /* body{
+    margin: 50px;
+  } */
+  .explore{
+    margin:40px;
+  }
+
+  .inspired{
+    margin:40px;
+  }
+  .local_tour{
+    margin:40px;
+  }
+  .more-explore{
+    margin:40px;
+  }
+  .more-explore{
+    margin:40px;
+  }
+  .footer{
+    margin:40px;
+  }
+  .banner-container-pc{
+    margin: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #34E0A1;
+  }
+  .banner-image-pc{
+    display: flex;
+  }
+  .banner-image-pc img {
+    width: 70%;
+  }
+  .container{
+    max-width: 1000px;
+  }
+  .banner-content-pc{
+    padding: 20px;
+    margin: 30px;
+  }
+  .banner-container-pc h1{
+    font-size: 60px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .banner-button-pc{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 50px;
+    background-color: black;
+    font-weight: bold;
+  }
+
+
+/* footer  for pc screen*/
+.footer-banner{
+  display: none;
+}
+
+.footer-banner-pc{
+    display: flex;
+    background-color: #FFF7E1;
+}
+.footer-banner-pc img{
+  width: 50%;
+}
+.footer-banner__award-logo-pc img{
+  background-color: #EDBF2D;
+  width: 10%;
+  margin-left:20px ;
+  border-radius: 50px;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius:10px ;
+}
+.footer-banner__content-pc{
+  padding: 10px;
+  margin: 10px;
+}
+.footer-banner__content-pc h1,  .footer-banner__content p{
+  padding-bottom: 10px;
+}
+
+.footer-banner__btn-pc p{
+  background-color: black;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+.footer-banner__btn-pc{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Large Screens (1200px and above) */
+@media screen and (min-width: 1200px) {
+  .app-install-add{
+    display: none;
+  }
+  .container {
+      max-width: 1200px;
+  }
 }
