@@ -452,6 +452,7 @@ body {
   }
 
   .scroll-wrapper__bg-image {
+    cursor: pointer;
     margin-top: 10px;
     position: relative;
     padding-right: 10px;
@@ -931,6 +932,11 @@ body {
   cursor: pointer;
   padding-bottom: 10px;
   border-bottom: solid #34E0A1 2px;
+}
+.scroll-menu-pc a:focus {
+  cursor: pointer;
+  padding-bottom: 10px;
+  border-bottom: solid #6d6d6d 2px;
 }
 .search-bar-pc{
   margin-top: 30px;
