@@ -14,6 +14,9 @@ body {
 .search-bar-pc{
   display: none;
 }
+.signup-page-pc{
+  display: none;
+}
 .scroll-container-pc{
   display: none;
 }
@@ -881,6 +884,12 @@ body {
 .navbar-tags p{
   cursor: pointer;
 }
+.global{
+  cursor: pointer;
+}
+.INR{
+  cursor: pointer;
+}
 .navbar-btn {
     display: flex; 
     align-items: center;
@@ -971,13 +980,150 @@ body {
   color:#34E0A1;
 
 }
-/* Hover & active effect */
-/* .scroll-menu-pc a:focus {
-  padding-bottom: 10px;
-  border-bottom: solid black 0.3px;
-} */
+
+.signup-page{
+  display: none;
+}
 
 
+/* singup page designing */
+.signup-page-pc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 70px; */
+  margin: 380px;
+  margin-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.signup-page__close-pc {
+  position: absolute;
+  top: 30px;
+  right: 400px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signup-page__close-pc:hover {
+  position: absolute;
+  top: 30px;
+  right: 400px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.signup-page__logo-pc img {
+  width: 40px;
+  height: 40px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: #34E0A1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.signup-page__title-pc {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.signup-page__google-pc {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid black 1px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 100px;
+  cursor: pointer;
+}
+
+.signup-page__mail-pc {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid black 1px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 100px;
+  cursor: pointer;
+}
+
+.signup-page__mail-pc:hover {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid black 1px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 100px;
+  cursor: pointer;
+  background-color: #34E0A1;
+}
+
+.signup-page__google-pc:hover {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 25%;
+  padding: 10px;
+  margin-top: 20px;
+  border: solid black 1px;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 100px;
+  cursor: pointer;
+  background-color: #34E0A1;
+}
+
+.signup-page__google-pc img {
+  width: 20px;
+}
+
+.signup-page__mail-pc img {
+  width: 20px;
+}
+
+.terms-and-privacy-pc {
+  font-size: 11px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 60%;
+  color: black;
+}
+
+.recaptcha_info-pc {
+  margin-top: 10px;
+  font-size: 11px;
+  opacity: 60%;
+}
+
+.terms-and-privacy-pc a {
+  color: black;
+}
+
+.recaptcha_info-pc a {
+  color: black;
+}
 
 }
 /* Large Screens (1200px and above) */
